@@ -1,6 +1,14 @@
 import React from 'react';
-import './index.module.less';
 
 export default () => {
-  return <div>区块</div>
-};
+  return (
+    <div style={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      height: '100%'
+    }}>
+      <h2>Hello, this is duya cli page's template</h2>
+    </div>
+  );
+}
